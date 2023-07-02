@@ -14,11 +14,18 @@ const About = () => {
           <p>
             I am Shahadat Hossain Sajim. I am a student at Daffodil
             International University department of Computer Science and
-            Engineering. <br />I am passionate about building robust web
-            applications by utilizing cutting-edge technologies that improves
-            the lives of those around me. I specialized in creating software for
-            clients ranging from individuals and small-businesses all the way to
-            large enterprise corporation.
+            Engineering. <br />
+            As a computer science student I am always try to explore new
+            technologies to further enhance my skills in different fields.I am passionate about building robust web applications by utilizing cutting-edge technologies that improves
+            the lives of those around me. I specialized in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporation.
+          </p>
+          <p className="text-3xl font-bold pt-3 text-cyan-400">My Skills</p>
+          <p className="font-bold">
+            Expertise: HTML | CSS | Bootstrap | Tailwind <br />
+            Comfortable: JavaScript| React | Firebase | ExpressJs | ReactRouter{" "}
+            <br />
+            Familiar: NodeJs | MongoDB | JWT Tools: GitHub | Netlify | Vercel |
+            VsCode | Figma
           </p>
         </div>
       </div>

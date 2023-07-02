@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#162946] text-white hover:bg-blue-700 ">
+    <div className="navbar bg-[#162946] text-white hover:bg-blue-900 hover:text-white">
       <div className="navbar-start">
         <div className="dropdown text-white">
           <label tabIndex={0} className=" lg:hidden">
@@ -40,7 +40,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl text-white">SH Sajim</a>
+        <a className="ps-10 font-bold normal-case text-xl text-white">
+          SH <span className="text-cyan-400">Sajim</span>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal font-bold px-1 hover:bg-none text-white">
@@ -62,7 +64,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary">Hire Me</a>
+        <a className="btn bg-cyan-500 hover:bg-indigo-500">Hire Me</a>
       </div>
     </div>
   );
