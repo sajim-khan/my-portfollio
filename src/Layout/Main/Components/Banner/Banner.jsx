@@ -9,7 +9,10 @@ const Banner = () => {
           Shahadat Hossain Sajim
         </h1>
         <h2 className="text-2xl mb-2">
-          I am a <span className="text-3xl font-sans font-bold text-cyan-400">Web Developer</span>
+          I am a{" "}
+          <span className="text-3xl font-sans font-bold text-cyan-400">
+            Web Developer
+          </span>
         </h2>
         <p>
           As a Web Developer, my career objective is to leverage my expertise in
@@ -18,6 +21,9 @@ const Banner = () => {
           enhance my skills and contribute to an organization that values
           creativity, teamwork, and excellence.
         </p>
+        <div className="justify-start mt-3">
+          <button className="btn bg-cyan-500 hover:bg-indigo-500">Download Resume</button>
+        </div>
       </div>
       <div className="w-[400px] h-[300px] ">
         <img className="rounded-3xl" src={img} alt="" />
