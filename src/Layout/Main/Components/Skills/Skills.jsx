@@ -2,7 +2,7 @@
 
 const Skills = () => {
     return (
-        <div>
+        <div className="text-white">
             skills
         </div>
     );

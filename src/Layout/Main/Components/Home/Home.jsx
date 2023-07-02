@@ -4,7 +4,7 @@ import SocialLink from "./SocialLink/SocialLink";
 
 const Home = () => {
     return (
-      <div>
+      <div className="w-full h-screen bg-[#162946]">
         <SocialLink></SocialLink>
         <Skills></Skills>
       </div>
