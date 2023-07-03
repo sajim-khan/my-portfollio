@@ -26,10 +26,10 @@ const Contact = () => {
   
   return (
     <div className="bg-[#162946]" id="contact">
-      <p className="ps-16 pt-5 pb-5 text-center text-5xl font-bold text-cyan-400 ">
+      <p className="ps-16 pt-5 lg:pb-5 text-center text-5xl font-bold text-cyan-400 ">
         Contact
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-2 ps-16 pe-12  pt-5 gap-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 ps-16 pe-12  lg:pt-5 gap-16">
         {/* First column */}
         <div className="max-w-1/2 lg:ps-16 mx-auto flex flex-col h-full text-white pt-5">
           <p className="text-4xl font-bold font-serif my-4 mt-5">

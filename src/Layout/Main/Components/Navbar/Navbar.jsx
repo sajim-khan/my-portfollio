@@ -24,19 +24,30 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-black hover:bg-none"
           >
             <li>
-              <a>Home</a>
+              <a className="hover:text-white" href="#home">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a className="hover:text-white" href="#skill">
+                Skills
+              </a>
             </li>
             <li>
-              <a>About</a>
+              <a className="hover:text-white" href="#project">
+                Projects
+              </a>
             </li>
             <li>
-              <a>Skills</a>
+              <a className="hover:text-white" href="#about">
+                About
+              </a>
             </li>
             <li>
-              <a>Projects</a>
-            </li>
-            <li>
-              <a>Contact</a>
+              <a className="hover:text-white" href="#contact">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
@@ -47,14 +58,20 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal font-bold px-1 hover:text-white hover:bg-none text-white">
           <li>
-            <a className="hover:text-white" href="#home">Home</a>
+            <a className="hover:text-white" href="#home">
+              Home
+            </a>
           </li>
 
           <li>
-            <a className="hover:text-white" href="#skill">Skills</a>
+            <a className="hover:text-white" href="#skill">
+              Skills
+            </a>
           </li>
           <li>
-            <a className="hover:text-white" href="#project">Projects</a>
+            <a className="hover:text-white" href="#project">
+              Projects
+            </a>
           </li>
           <li>
             <a className="hover:text-white" href="#about">
@@ -69,7 +86,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-cyan-500 hover:bg-indigo-500" href="#contact">Hire Me</a>
+        <a className="btn bg-cyan-500 hover:bg-indigo-500" href="#contact">
+          Hire Me
+        </a>
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
 const About = () => {
   return (
     <div className="bg-[#162946]" id="about">
-      <p className="ps-16 pt-5 text-center text-5xl font-bold text-cyan-400 mb-8">
+      <p className="ps-16 lg:pt-5 text-center text-5xl font-bold text-cyan-400 mb-7">
         About Me
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-2 ps-16 pe-12 lg:pt-5 py-10 gap-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 ps-16 pe-12 lg:pt-5 py-7 gap-16">
         <div className="max-w-1/2  mx-auto flex flex-col h-full text-white">
-          <p className="text-5xl font-bold font-serif my-4">Education</p>
+          <p className="text-5xl font-bold font-serif lg:my-4">Education</p>
           <div className="pb-5">
             <p className="text-3xl pb-1">Daffodil International University</p>
             <p className="text-lg">B.Sc in Computer Science and Engineering</p>
