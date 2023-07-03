@@ -1,25 +1,52 @@
 const Contact = () => {
   return (
     <div className="bg-[#162946]">
-      <p className="ps-16 pt-5 text-center text-5xl font-bold text-cyan-400 mb-8">
-        Contact Me
+      <p className="ps-16 pt-5 text-center text-5xl font-bold text-cyan-400 ">
+        Contact
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-2 ps-16 pe-12 lg:pt-5 py-10 gap-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 ps-16 pe-12  py-5 gap-16">
         {/* First column */}
-        <div className="max-w-1/2  mx-auto flex flex-col h-full text-white">
-          <p className="text-5xl font-bold font-serif my-4">Education</p>
+        <div className="max-w-1/2 lg:ps-16 mx-auto flex flex-col h-full text-white pt-5">
+          <p className="text-4xl font-bold font-serif my-4 mt-5">
+            Let’s connect With Me
+          </p>
+          <p className="font-serif text-xl mb-2">
+            I am here to help and answer any question you might have, I look
+            forward to hearing from you.
+          </p>
 
           <div className="pb-5">
-            <p className="text-3xl pb-1">Akhter Banu High School</p>
-            <p className="text-lg">Secondary School Certificate</p>
-            <p>Passed in 2015, From Science division</p>
+            <p className="text-2xl pb-2 font-bold">
+              Email :{" "}
+              <span className="text-2xl font-bold text-cyan-300 mb-2">
+                shossain1427@gmail.com
+              </span>
+            </p>
+
+            <p className="text-2xl pb-2">
+              <span className="font-bold">Mobile No</span> :{" "}
+              <span className="text-cyan-300 font-bold">+8801623542890</span>
+            </p>
+
+            <p className="text-2xl pb-2">
+              <span className="font-bold">Available</span> :{" "}
+              <span className="text-cyan-300 font-serif font-bold">
+                WhatsApp, Telegram
+              </span>
+            </p>
+            <p className="text-3xl pb-2 font-bold">
+              Address :{" "}
+              <span className="text-2xl font-bold text-cyan-300 font-serif">
+                Gazipur, Dhaka, Bangladesh
+              </span>
+            </p>
           </div>
         </div>
         {/* 2nd column */}
         <div className="max-w-1/2  mx-auto flex flex-col justify-center h-[500px] text-white">
           <div>
-            <div className="relative z-10  mx-auto text-black sm:px-4 md:px-8">
-              <div className="mt-12 mx-auto px-4 p-8 bg-white sm:max-w-lg sm:px-8 sm:rounded-xl">
+            <div className=" mx-auto text-black sm:px-4 md:px-8">
+              <div className=" mx-auto px-4 p-8 bg-white sm:max-w-lg sm:px-8 sm:rounded-xl">
                 <form
                   // onSubmit={(e) => e.preventDefault()}
                   className="space-y-5"
@@ -53,13 +80,13 @@ const Contact = () => {
                 </form>
               </div>
             </div>
-            <div
+            {/* <div
               className="absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]"
               style={{
                 background:
                   "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)",
               }}
-            ></div>
+            ></div> */}
           </div>
         </div>
       </div>
