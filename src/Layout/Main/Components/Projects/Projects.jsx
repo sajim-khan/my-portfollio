@@ -5,13 +5,13 @@ import sports from "../../../../assets/sports-academia.png";
 
 const Projects = () => {
   return (
-    <div className="bg-[#162946] ps-28 pt-10">
-      <h1 className="text-center text-4xl font-bold text-cyan-400 mb-10">
+    <div className="bg-[#162946] ps-16 lg:ps-28 pt-10">
+      <h1 className="text-center text-5xl font-bold text-cyan-400 mb-16">
         Projects
       </h1>
 
       {/* Kids toy project */}
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-14 lg:pb-20">
+      <div className="flex flex-col lg:flex-row justify-center lg:gap-14 lg:pb-16 ">
         <div className="w-3/4 lg:w-1/2 h-64 lg:h-[400px] overflow-hidden img-container">
           <a href="">
             <img
@@ -38,12 +38,12 @@ const Projects = () => {
             </p>
             <p>3. Also, sellers can add toys to show their products.</p>
           </div>
-          <p>
+          <p className="text-xl">
             <span className="text-2xl font-bold">Technologies:</span> React,
             TailwindCSS, React-router, MongoDB, Express.js, Firebase/auth,
             express.js, nodeJs
           </p>
-          <div className="flex flex-col lg:flex-row gap-3 pe-10 lg:gap-10 mt-5 mb-10">
+          <div className="flex flex-col lg:flex-row gap-3 pe-10 lg:gap-10 mt-5 mb-20 lg:mb-10">
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
@@ -52,7 +52,7 @@ const Projects = () => {
       </div>
 
       {/* FoodBank project */}
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-14 lg:pb-20">
+      <div className="flex flex-col lg:flex-row justify-center lg:gap-14 lg:pb-10">
         <div className="w-3/4 lg:w-1/2 h-64 lg:h-[400px] overflow-hidden img-container">
           <a href="">
             <img
@@ -82,12 +82,12 @@ const Projects = () => {
               details.
             </p>
           </div>
-          <p>
+          <p className="text-lg">
             <span className="text-2xl font-bold">Technologies:</span> React,
             TailwindCSS, React-router, MongoDB, Express.js, Firebase/auth,
             express.js, nodeJs
           </p>
-          <div className="flex flex-col lg:flex-row gap-3 lg:gap-10 mt-5 mb-10">
+          <div className="flex flex-col lg:flex-row gap-3 pe-10 lg:gap-10 mt-5 mb-20 lg:mb-10">
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
@@ -96,7 +96,7 @@ const Projects = () => {
       </div>
 
       {/* SportsAcademia project*/}
-      <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-14 lg:pb-20">
+      <div className="flex flex-col lg:flex-row justify-center lg:gap-14 lg:pb-10">
         <div className="w-3/4 lg:w-1/2 h-64 lg:h-[400px] overflow-hidden img-container">
           <a href="">
             <img
@@ -118,16 +118,18 @@ const Projects = () => {
               sports-related courses for kids.
             </p>
             <p>
-              2. Through this website, Admin can edit user roles from Dashboard
+              2. By this website, Students can explore different courses and
+              they can choose their favourite course to learn new things and
+              view details.
             </p>
             <p>3. Also Instructors can add, update and delete classes.</p>
           </div>
-          <p>
+          <p className="text-xl">
             <span className="text-2xl font-bold">Technologies:</span> React,
             TailwindCSS, React-router, MongoDB, Express.js, Firebase/auth,
             express.js, nodeJs
           </p>
-          <div className="flex flex-col lg:flex-row gap-3 lg:gap-10 mt-5">
+          <div className="flex flex-col lg:flex-row gap-3 pe-10 lg:gap-10 mt-5 mb-14">
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>

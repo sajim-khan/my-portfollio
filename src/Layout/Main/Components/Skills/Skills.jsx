@@ -11,7 +11,7 @@ import mongodb from "../../../../assets/mongodb.png";
 const Skills = () => {
   return (
     <div className="bg-[#162946]">
-      <h1 className="text-center text-4xl font-bold text-cyan-400 mt-5">
+      <h1 className="text-center text-4xl font-bold text-cyan-400 pt-5">
         Skills
       </h1>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-10 lg:mx-16 py-10 ps-16 ">

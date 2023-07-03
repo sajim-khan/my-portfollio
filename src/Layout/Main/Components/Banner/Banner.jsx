@@ -3,6 +3,7 @@ import {BsFillArrowDownCircleFill} from 'react-icons/bs'
 
 const Banner = () => {
   return (
+  <div className="bg-[#162946]">
     <div className="grid grid-cols-1 lg:grid-cols-2 ps-28 pe-12 lg:pt-10 py-10 gap-16">
       <div className="max-w-1/2  mx-auto flex flex-col justify-center h-full text-white">
         <p className="text-2xl text-purple-400">Hello, My name is </p>
@@ -29,9 +30,10 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <div className=" sm:w-[200px] lg:w-[400px] h-[300px] ">
+      <div className=" lg:w-[400px] h-[300px] ">
         <img className="rounded-3xl" src={img} alt="" />
       </div>
+    </div>
     </div>
   );
 };
