@@ -21,7 +21,7 @@ const Projects = () => {
             />
           </a>
         </div>
-        <div className="sm:pe-5 text-white mt-5 lg:mt-0 lg:pe-14">
+        <div className="pe-5 text-white mt-5 lg:mt-0 lg:pe-14">
           <p className="text-5xl font-serif py-2">ToyShop</p>
           <p className="text-2xl font-bold pb-3">
             MERN-Stack: Multivendor e-commerce website for kids.
@@ -43,7 +43,7 @@ const Projects = () => {
             TailwindCSS, React-router, MongoDB, Express.js, Firebase/auth,
             express.js, nodeJs
           </p>
-          <div className="flex flex-col lg:flex-row gap-10 mt-5">
+          <div className="flex flex-col lg:flex-row gap-3 pe-10 lg:gap-10 mt-5 mb-10">
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
@@ -62,7 +62,7 @@ const Projects = () => {
             />
           </a>
         </div>
-        <div className="sm:pe-5 text-white mt-5 lg:mt-0 lg:pe-14">
+        <div className="pe-5 text-white mt-5 lg:mt-0 lg:pe-14">
           <p className="text-5xl font-serif py-2">FoodBank</p>
           <p className="text-2xl font-bold pb-2">
             React & Firebase : Various food from different region
@@ -87,7 +87,7 @@ const Projects = () => {
             TailwindCSS, React-router, MongoDB, Express.js, Firebase/auth,
             express.js, nodeJs
           </p>
-          <div className="flex flex-col lg:flex-row gap-10 mt-5">
+          <div className="flex flex-col lg:flex-row gap-3 lg:gap-10 mt-5 mb-10">
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
@@ -95,8 +95,8 @@ const Projects = () => {
         </div>
       </div>
 
-      {/* Third  project*/}
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-14 lg:pb-20">
+      {/* SportsAcademia project*/}
+      <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-14 lg:pb-20">
         <div className="w-3/4 lg:w-1/2 h-64 lg:h-[400px] overflow-hidden img-container">
           <a href="">
             <img
@@ -106,29 +106,28 @@ const Projects = () => {
             />
           </a>
         </div>
-        <div className="sm:pe-5 text-white mt-5 lg:mt-0 lg:pe-14">
-          <p className="text-5xl font-serif py-2">ToyShop</p>
+        <div className="pe-5 text-white mt-5 lg:mt-0 lg:pe-14">
+          <p className="text-5xl font-serif py-2">SportsAcademia</p>
           <p className="text-2xl font-bold pb-3">
-            MERN-Stack: Multivendor e-commerce website for kids.
+            MERN-Stack: Educational website for kids.
           </p>
           <p className="text-3xl font-mono font-bold">About Projects:</p>
           <div className="pb-2">
             <p>
-              1. This website is an e-commerce platform that offers consumer
-              to-consumer and business-to-consumer sales through the website
+              1. This website is an e-commerce platform that offers
+              sports-related courses for kids.
             </p>
             <p>
-              2. Through this website, users can see kids toys and they can add
-              their favorite toys
+              2. Through this website, Admin can edit user roles from Dashboard
             </p>
-            <p>3. Also, sellers can add toys to show their products.</p>
+            <p>3. Also Instructors can add, update and delete classes.</p>
           </div>
           <p>
             <span className="text-2xl font-bold">Technologies:</span> React,
             TailwindCSS, React-router, MongoDB, Express.js, Firebase/auth,
             express.js, nodeJs
           </p>
-          <div className="flex flex-col lg:flex-row gap-10 mt-5">
+          <div className="flex flex-col lg:flex-row gap-3 lg:gap-10 mt-5">
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
@@ -136,7 +135,6 @@ const Projects = () => {
         </div>
       </div>
       {/* fifth project */}
-      
     </div>
   );
 };
