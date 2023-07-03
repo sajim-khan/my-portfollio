@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#162946] text-white hover:bg-blue-900 hover:text-white">
+    <div className="navbar bg-[#162946] text-white hover:bg-blue-900">
       <div className="navbar-start">
         <div className="dropdown text-white">
           <label tabIndex={0} className=" lg:hidden">
