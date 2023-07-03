@@ -84,9 +84,9 @@ const Projects = () => {
             express.js, nodeJs
           </p>
           <div className="flex flex-col lg:flex-row gap-10 mt-5">
-            <p>Live Website</p>
-            <p>Client</p>
-            <p>Server</p>
+            <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
+            <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
+            <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@ const Projects = () => {
           <a href="">
             <img
               className="block  w-full h-full object-cover object-top rounded"
-              src={toy}
+              src={food}
               alt=""
             />
           </a>
@@ -125,14 +125,53 @@ const Projects = () => {
             express.js, nodeJs
           </p>
           <div className="flex flex-col lg:flex-row gap-10 mt-5">
-            <p>Live Website</p>
-            <p>Client</p>
-            <p>Server</p>
+            <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
+            <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
+            <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
           </div>
         </div>
       </div>
-      
-      {/* Third  */}
+
+      {/* Third  project*/}
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-14 lg:pb-20">
+        <div className="w-3/4 lg:w-1/2 h-64 lg:h-[400px] overflow-hidden img-container">
+          <a href="">
+            <img
+              className="block  w-full h-full object-cover object-top rounded"
+              src={sports}
+              alt=""
+            />
+          </a>
+        </div>
+        <div className="sm:pe-5 text-white mt-5 lg:mt-0 lg:pe-14">
+          <p className="text-5xl font-serif py-2">ToyShop</p>
+          <p className="text-2xl font-bold pb-3">
+            MERN-Stack: Multivendor e-commerce website for kids.
+          </p>
+          <p className="text-3xl font-mono font-bold">About Projects:</p>
+          <div className="pb-2">
+            <p>
+              1. This website is an e-commerce platform that offers consumer
+              to-consumer and business-to-consumer sales through the website
+            </p>
+            <p>
+              2. Through this website, users can see kids toys and they can add
+              their favorite toys
+            </p>
+            <p>3. Also, sellers can add toys to show their products.</p>
+          </div>
+          <p>
+            <span className="text-2xl font-bold">Technologies:</span> React,
+            TailwindCSS, React-router, MongoDB, Express.js, Firebase/auth,
+            express.js, nodeJs
+          </p>
+          <div className="flex flex-col lg:flex-row gap-10 mt-5">
+            <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
+            <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
+            <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
+          </div>
+        </div>
+      </div>
       {/* fifth project */}
     </div>
   );
