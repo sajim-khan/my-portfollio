@@ -1,7 +1,6 @@
 import toy from "../../../../assets/toy-store.png";
 import food from "../../../../assets/food-bank.png";
 import sports from "../../../../assets/sports-academia.png";
-// import { BsFillArrowRightSquareFill } from "react-icons/bs";
 
 const Projects = () => {
   return (
@@ -44,9 +43,24 @@ const Projects = () => {
             express.js, nodeJs
           </p>
           <div className="flex flex-col lg:flex-row gap-3 pe-10 lg:gap-10 mt-5 mb-20 lg:mb-10">
-            <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
-            <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
-            <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
+            <a
+              href="https://toy-store-8043f.web.app/"
+              className="btn bg-cyan-300 hover:bg-indigo-500"
+            >
+              Live Website
+            </a>
+            <a
+              href="https://github.com/sajim-khan/toy-shop-client"
+              className="btn bg-cyan-300 hover:bg-indigo-500"
+            >
+              Client
+            </a>
+            <a
+              href="https://github.com/sajim-khan/toy-shop-server"
+              className="btn bg-cyan-300 hover:bg-indigo-500"
+            >
+              Server
+            </a>
           </div>
         </div>
       </div>
@@ -88,9 +102,24 @@ const Projects = () => {
             NodeJs
           </p>
           <div className="flex flex-col lg:flex-row gap-3 pe-10 lg:gap-10 mt-5 mb-20 lg:mb-10">
-            <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
-            <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
-            <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
+            <a
+              href="https://fastidious-gaufre-0c7ede.netlify.app/"
+              className="btn bg-cyan-300 hover:bg-indigo-500"
+            >
+              Live Website
+            </a>
+            <a
+              href="https://github.com/sajim-khan/chef-recipe-hunter-client"
+              className="btn bg-cyan-300 hover:bg-indigo-500"
+            >
+              Client
+            </a>
+            <a
+              href="https://github.com/sajim-khan/chef-recipe-hunter-server"
+              className="btn bg-cyan-300 hover:bg-indigo-500"
+            >
+              Server
+            </a>
           </div>
         </div>
       </div>
@@ -130,13 +159,27 @@ const Projects = () => {
             express.js, nodeJs
           </p>
           <div className="flex flex-col lg:flex-row gap-3 pe-10 lg:gap-10 mt-5 mb-14">
-            <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
-            <p className="btn bg-cyan-300 hover:bg-indigo-500">Client</p>
-            <p className="btn bg-cyan-300 hover:bg-indigo-500">Server</p>
+            <a
+              href="https://sports-academia.web.app/"
+              className="btn bg-cyan-300 hover:bg-indigo-500"
+            >
+              Live Website
+            </a>
+            <a
+              href="https://github.com/sajim-khan/sports-academia-client"
+              className="btn bg-cyan-300 hover:bg-indigo-500"
+            >
+              Client
+            </a>
+            <a
+              href="https://github.com/sajim-khan/sports-academia-server"
+              className="btn bg-cyan-300 hover:bg-indigo-500"
+            >
+              Server
+            </a>
           </div>
         </div>
       </div>
-      {/* fifth project */}
     </div>
   );
 };
