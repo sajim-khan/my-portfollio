@@ -1,4 +1,5 @@
 import img from "./../../../../assets/sajim.jpg";
+import {BsFillArrowDownCircleFill} from 'react-icons/bs'
 
 const Banner = () => {
   return (
@@ -22,10 +23,13 @@ const Banner = () => {
           creativity, teamwork, and excellence.
         </p>
         <div className="justify-start mt-3">
-          <button className="btn bg-cyan-500 hover:bg-indigo-500">Download Resume</button>
+          <button className="btn bg-cyan-500 hover:bg-indigo-500">
+            Download Resume
+              <BsFillArrowDownCircleFill></BsFillArrowDownCircleFill>
+          </button>
         </div>
       </div>
-      <div className="w-[400px] h-[300px] ">
+      <div className=" sm:w-[200px] lg:w-[400px] h-[300px] ">
         <img className="rounded-3xl" src={img} alt="" />
       </div>
     </div>
