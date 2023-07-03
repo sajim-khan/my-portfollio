@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 ps-16 lg:ps-28 pe-12 lg:pt-10 py-10 gap-16">
         <div className="max-w-1/2  mx-auto flex flex-col justify-center h-full text-white">
           <p className="text-2xl text-purple-400">Hello, My name is </p>
-          <h1 className="text-5xl font-bold font-serif py-2">
+          <h1 className="text-4xl font-bold font-serif py-2">
             Shahadat Hossain Sajim
           </h1>
           <h2 className="text-2xl mb-2">
@@ -23,10 +23,10 @@ const Banner = () => {
             determined to enhance my skills and contribute to an organization
             that values creativity, teamwork, and excellence.
           </p>
-          <div className="justify-start mt-3">
+          <div className="justify-start mt-4">
             <a href="https://drive.google.com/uc?id=1fJ8V6Qw_DhFxeNsgFpnuThADsGKNGybp&export=download">
               <span className="btn bg-cyan-500 hover:bg-indigo-500">
-                Download Resume{" "}
+                Download Resume
                 <BsFillArrowDownCircleFill></BsFillArrowDownCircleFill>
               </span>
             </a>
