@@ -4,7 +4,7 @@ import {BsFillArrowDownCircleFill} from 'react-icons/bs'
 const Banner = () => {
   return (
   <div className="bg-[#162946]">
-    <div className="grid grid-cols-1 lg:grid-cols-2 ps-28 pe-12 lg:pt-10 py-10 gap-16">
+    <div className="grid grid-cols-1 lg:grid-cols-2 ps-16 lg:ps-28 pe-12 lg:pt-10 py-10 gap-16">
       <div className="max-w-1/2  mx-auto flex flex-col justify-center h-full text-white">
         <p className="text-2xl text-purple-400">Hello, My name is </p>
         <h1 className="text-4xl font-bold font-serif py-2">

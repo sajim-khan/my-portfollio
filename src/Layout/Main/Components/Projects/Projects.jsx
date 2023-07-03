@@ -84,8 +84,8 @@ const Projects = () => {
           </div>
           <p className="text-lg">
             <span className="text-2xl font-bold">Technologies:</span> React,
-            TailwindCSS, React-router, MongoDB, Express.js, Firebase/auth,
-            express.js, nodeJs
+            Tailwind CSS, React-router, Firebase Authentication, Express.js,
+            NodeJs
           </p>
           <div className="flex flex-col lg:flex-row gap-3 pe-10 lg:gap-10 mt-5 mb-20 lg:mb-10">
             <p className="btn bg-cyan-300 hover:bg-indigo-500">Live Website</p>
