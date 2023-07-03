@@ -10,7 +10,7 @@ import mongodb from "../../../../assets/mongodb.png";
 
 const Skills = () => {
   return (
-    <div className="bg-[#162946]">
+    <div className="bg-[#162946]" id="skill">
       <h1 className="text-center text-4xl font-bold text-cyan-400 pt-5 pb-5">
         My Skills
       </h1>

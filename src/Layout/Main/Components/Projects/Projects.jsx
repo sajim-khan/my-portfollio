@@ -4,7 +4,7 @@ import sports from "../../../../assets/sports-academia.png";
 
 const Projects = () => {
   return (
-    <div className="bg-[#162946] ps-16 lg:ps-28 pt-10">
+    <div className="bg-[#162946] ps-16 lg:ps-28 pt-10" id="project">
       <h1 className="text-center text-5xl font-bold text-cyan-400 mb-16">
         Projects
       </h1>

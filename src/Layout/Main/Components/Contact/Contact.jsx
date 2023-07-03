@@ -25,7 +25,7 @@ const Contact = () => {
 
   
   return (
-    <div className="bg-[#162946]">
+    <div className="bg-[#162946]" id="contact">
       <p className="ps-16 pt-5 pb-5 text-center text-5xl font-bold text-cyan-400 ">
         Contact
       </p>
